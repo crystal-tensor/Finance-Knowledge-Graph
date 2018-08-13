@@ -1,0 +1,5 @@
+f = open('jingyongnovel2.txt')
+o = open('medical13.txt', 'a')
+sourceInLines = str(f.readlines())
+str2=sourceInLines.replace("\\\'", "'")
+o.write(str2)
